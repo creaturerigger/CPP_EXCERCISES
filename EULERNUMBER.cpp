@@ -1,5 +1,4 @@
-// Straightforward coding without any methods or classes.
-
+// Straightforward coding without method/class implementation
 #include <iostream>
 #include <iomanip>
 using namespace std;
