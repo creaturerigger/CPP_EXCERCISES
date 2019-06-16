@@ -5,7 +5,6 @@
 
 using namespace std;
 
-
 void EULERSNUMBER::findEulersNumber() const {
     cout << "Enter number of terms to calculate approximate value of euler number (-1 to quit): ";
     int n = 0;
@@ -40,7 +39,3 @@ void EULERSNUMBER::findEulersNumber() const {
         cin >> n;
     }
 }
-
-
-
-
