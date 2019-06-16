@@ -1,4 +1,6 @@
 // Straightforward coding without method/class implementation
+// This program evaluates Euler's number by taylor series expansion at 0 based on number of terms
+// entered by the user to determine number of terms for taylor series expansion
 #include <iostream>
 #include <iomanip>
 using namespace std;
