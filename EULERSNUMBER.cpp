@@ -1,11 +1,10 @@
+//
+// Created by volkan on 16/06/2019.
+//
 
-#include <iostream>
-#include <iomanip>
 #include "EULERSNUMBER.h"
 
-using namespace std;
-
-void EULERSNUMBER::findEulersNumber() const {
+void EULERSNUMBER::findEulerNumber() const {
     cout << "Enter number of terms to calculate approximate value of euler number (-1 to quit): ";
     int n = 0;
     cin >> n;
