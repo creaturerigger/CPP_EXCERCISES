@@ -12,7 +12,7 @@ using namespace std;
 
 class EULERSNUMBER {
 public:
-    void findEulerNumber() const;
+    void findEulersNumber() const;
     double ACTUAL_EULER_NUMBER = 2.718281828459045;
 };
 
