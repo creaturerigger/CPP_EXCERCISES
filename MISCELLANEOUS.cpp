@@ -6,5 +6,3 @@
 #include <iomanip>
 using namespace std;
 
-void
-
