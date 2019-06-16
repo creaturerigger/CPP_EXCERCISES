@@ -8,7 +8,7 @@
 int main(int argc, char *argv[]) {
 
     EULERSNUMBER e;
-    e.findEulerNumber();
+    e.findEulersNumber();
 
     return 0;
 }
