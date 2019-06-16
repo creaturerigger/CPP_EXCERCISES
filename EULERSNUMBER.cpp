@@ -4,7 +4,7 @@
 
 #include "EULERSNUMBER.h"
 
-void EULERSNUMBER::findEulersNumber() const {
+void EULERSNUMBER::findEulerNumber() const {
     cout << "Enter number of terms to calculate approximate value of euler number (-1 to quit): ";
     int n = 0;
     cin >> n;
