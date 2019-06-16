@@ -13,6 +13,7 @@ using namespace std;
 class MISCELLANEOUS {
 public:
     void printIntegers() const;
+    void integersProduct() const;
 };
 
 

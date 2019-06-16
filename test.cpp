@@ -4,11 +4,14 @@
 
 
 #include "EULERSNUMBER.h"
+#include "MISCELLANEOUS.h"
 
 int main(int argc, char *argv[]) {
 
-    EULERSNUMBER e;
-    e.findEulersNumber();
-
+    /* Uncomment commands below to run */
+    // EULERSNUMBER e;
+    // e.findEulersNumber();
+    MISCELLANEOUS m;
+    m.integersProduct();
     return 0;
 }
