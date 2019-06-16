@@ -32,6 +32,8 @@ int main(int argc, char* argv[]) {
                 denomtemp = denominator;
                 n--;
             }
+            
+            //precision is set to 15           
             cout << setprecision(15) << fixed;
             cout << "Approximate value of euler number is : " << eulernumber << endl;
             double relativeError = (abs(ACTUAL_EULER_NUMBER-eulernumber)/ACTUAL_EULER_NUMBER)*100;
