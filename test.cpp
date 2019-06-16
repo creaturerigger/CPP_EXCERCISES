@@ -2,7 +2,7 @@
 // Created by volka on 16/06/2019.
 //
 
-#include "EULERSNUMBER.cpp"
+#include "EULERSNUMBER.h"
 
 int main(int argc, char *argv[]) {
 
