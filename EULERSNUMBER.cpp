@@ -1,4 +1,4 @@
-// Straightforward coding without method/class implementation
+
 #include <iostream>
 #include <iomanip>
 #include "EULERSNUMBER.h"
