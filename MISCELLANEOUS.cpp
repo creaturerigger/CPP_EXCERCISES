@@ -78,9 +78,6 @@ void MISCELLANEOUS::largestNumber() const {
                 largest = exNumber;
             }
         }
-        cout << "largest : " << largest << endl;
-        cout << "newnumber : " << newNumber << endl;
-        cout << "exnumber : " << exNumber << endl;
         counter--;
         if(counter==0){
             break;
