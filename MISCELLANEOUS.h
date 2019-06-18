@@ -14,7 +14,7 @@ class MISCELLANEOUS {
 public:
     void printIntegers() const;
     void integersProduct() const;
-
+    void averageIntegers() const;
 };
 
 
