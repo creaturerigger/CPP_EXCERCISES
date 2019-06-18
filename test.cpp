@@ -12,6 +12,7 @@ int main(int argc, char *argv[]) {
     // EULERSNUMBER e;
     // e.findEulersNumber();
     MISCELLANEOUS m;
-    m.integersProduct();
+    //m.integersProduct();
+    m.averageIntegers();
     return 0;
 }
