@@ -9,11 +9,13 @@
 int main(int argc, char *argv[]) {
 
     /* Uncomment commands below to run */
-    // EULERSNUMBER e;
+    //EULERSNUMBER e;
     // e.findEulersNumber();
     MISCELLANEOUS m;
     //m.integersProduct();
     //m.averageIntegers();
-    m.largestNumber();
+    //m.largestNumber();
+    //m.productOfEvenNumbers();
+    m.findFactorial();
     return 0;
 }

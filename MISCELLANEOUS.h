@@ -16,6 +16,8 @@ public:
     void integersProduct() const;
     void averageIntegers() const;
     void largestNumber() const;
+    void productOfEvenNumbers() const;
+    void findFactorial() const;
 };
 
 
