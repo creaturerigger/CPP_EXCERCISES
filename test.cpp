@@ -13,6 +13,7 @@ int main(int argc, char *argv[]) {
     // e.findEulersNumber();
     MISCELLANEOUS m;
     //m.integersProduct();
-    m.averageIntegers();
+    //m.averageIntegers();
+    m.largestNumber();
     return 0;
 }

@@ -53,3 +53,38 @@ void MISCELLANEOUS::averageIntegers() const {
     cout << setprecision(6) << fixed;
     cout << "Average of entered integers are : " << average << endl;
 }
+
+void MISCELLANEOUS::largestNumber() const {
+    cout << "Enter integers to find the largest entered integer:" << endl
+    << "The first number determines number of the integers to be entered." << endl;
+    int numberOfElements=0;
+    cin >> numberOfElements;
+    int counter = numberOfElements;
+    int largest = 0;
+    int exNumber = 0;
+    int newNumber = 0;
+    while(cin.get()!=EOF){
+        cin >> newNumber;
+        if(counter==numberOfElements){
+            exNumber = newNumber;
+            largest = exNumber;
+        }
+        else{
+            if(newNumber>exNumber){
+                largest = newNumber;
+                exNumber = largest;
+            }
+            else{
+                largest = exNumber;
+            }
+        }
+        cout << "largest : " << largest << endl;
+        cout << "newnumber : " << newNumber << endl;
+        cout << "exnumber : " << exNumber << endl;
+        counter--;
+        if(counter==0){
+            break;
+        }
+    }
+    cout << "Largest of entered integers is: " << largest << endl;
+}

@@ -15,6 +15,7 @@ public:
     void printIntegers() const;
     void integersProduct() const;
     void averageIntegers() const;
+    void largestNumber() const;
 };
 
 
