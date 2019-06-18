@@ -24,3 +24,11 @@ This method calculates average of integers entered by user.
 #### ```Miscellaneous::largestNumber()``` ####
 
 This method finds the largest integer among integers entered by user.
+
+#### ```Miscellaneous::productOfEvenNumbers() ####
+
+This method calculates product of even numbers between 1 and 15.
+
+#### ```Miscellaneous::findFactorial() ####
+
+This method calculates factorial of numbers between 1 and 7 and prints result out in tabular form.
