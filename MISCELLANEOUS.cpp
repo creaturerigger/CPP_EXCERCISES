@@ -31,3 +31,25 @@ void MISCELLANEOUS::integersProduct() const {
     }
     cout << "Product of all integers you have entered is -> " << result << endl;
 }
+
+void MISCELLANEOUS::averageIntegers() const {
+    cout << "Enter integers to calculate average of them. " << endl
+    << "To end the process enter '9999'" << endl;
+    int number = 0;
+    cin >> number;
+    int counter = 0;
+    int total = 0;
+    double average = 0;
+    while(cin.get()!=EOF){
+        cin >> number;
+        if(number==9999){
+            break;
+        }else{
+            total += number;
+            counter++;
+        }
+    }
+    average = static_cast<double>(total)/counter;
+    cout << setprecision(6) << fixed;
+    cout << "Average of entered integers are : " << average << endl;
+}
